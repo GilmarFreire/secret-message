@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main_color: #E5E5E5;
+}
+
+body{
+    background-color: var(--main_color);
+    width: 1080px;
+    height: 100%;
+    color: darkblue;
+}
+.header_class{
+    display: flex;
+    padding: 40px;
+}
+.main_class{
+    display: flex;
+    justify-content:space-between;
+    margin: 0px 80px 80px 240px;
+    
+}
+
+.text_input{
+    border: 1px solid red;
+}
+
+.exit_messages {
+    
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 307px;
+    height: 672px;
+    border-radius: 32px;
+    border: 2px solid green;
+}
+
+.picture_src{
+    width: 304px 336px;
+    border: 1px solid red;
+    margin: 243px 32px 397px 32px;
+}
