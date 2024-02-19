@@ -5,27 +5,57 @@
 
 :root{
     --main_color: #E5E5E5;
+    --main-text-color: darkblue;
 }
 
 body{
     background-color: var(--main_color);
-    width: 1080px;
-    height: 100%;
-    color: darkblue;
+    color: var(--main-text-color);
 }
 .header_class{
     display: flex;
     padding: 40px;
 }
-.main_class{
+.main-container {
+    
     display: flex;
     justify-content:space-between;
-    margin: 0px 80px 80px 240px;
-    
+    margin: 0px 80px 80px 10%;
 }
 
 .text_input{
-    border: 1px solid red;
+    padding: 3%;
+    
+    border-radius: 33px;
+}
+
+#text-area-input {
+    margin: 3% 6%;
+    width: 90%;
+    height: 60%;
+    border: none;
+    
+    text-transform: lowercase;
+}   
+
+.action-button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    padding: 2%;    
+    
+}
+
+.action-button-btn {
+    border: none;
+    padding: 2%;
+    width: 23%;
+    background: dodgerblue;
+}
+
+.action-button-btn:hover{
+    border: 4px solid ;
+    border-radius: 20%;
 }
 
 .exit_messages {
@@ -34,13 +64,12 @@ body{
     flex-direction: column;
     background-color: white;
     width: 307px;
-    height: 672px;
+    padding: 3%;   
     border-radius: 32px;
-    border: 2px solid green;
+    border: 1px solid gray;
 }
 
-.picture_src{
-    width: 304px 336px;
-    border: 1px solid red;
-    margin: 243px 32px 397px 32px;
+.picture_src-output{
+    width: 304px 336px;    
+    margin-top: 5%;
 }

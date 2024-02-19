@@ -8,23 +8,33 @@
 </head>
 <body>
     <header class="header_class">
-        <img src="./assets/logo_alura.svg" alt="">
+        <img src="./assets/logo_alura.svg" alt="logo_alura">
         <h1>Secret Message</h1>
     </header>
-    <main class="main_class">
+    <main class="main-container">
         <section class="text_input">
-            <h2>Digite seu texto</h2>
-            <input type="Entre com seu texto">
-            <p>Apenas letras minusculas e sem acento</p>
-            <button>Criptografar</button>
-            <button>Descriptografar</button>
+            <h2>Digite seu texto para Criptografar ou Descriptografar</h2>
+            <textarea placeholder="Digite seu texto aqui" id="text-area-input"></textarea>
+            <p><span>Obs: Apenas letras minusculas e sem acento</span></p>
+
+            <div class="action-button">
+                <button class="action-button-btn">Criptografar</button>
+                <button class="action-button-btn">Descriptografar</button>
+                <button class="action-button-btn">Copy</button>    
+            </div>
+
         </section>
+        
         <section class="exit_messages">
-            <img class="picture_src" src="./assets/picture_src.svg" alt="">
+            <h2>Sua mensagem aparecerá aqui!!!</h2>
+            <img class="picture_src-output" src="./assets/picture_src.svg" alt="picture_src">
+            
         </section>
         
     </main>
-    <footer></footer>
+    <footer>
+        <p>Desenvolvido por Gilmar Freire</p>
+    </footer>
     
 </body>
 </html>
